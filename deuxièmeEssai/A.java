@@ -1,33 +1,29 @@
 
 /**
- * Décrivez votre classe A ici.
- *
- * @author (votre nom)
- * @version (un numéro de version ou une date)
- */
+* @author (Rayane)
+* @version (23-05-2021)
+*/
+
 public class A
 {
-    // variables d'instance - remplacez l'exemple qui suit par le vôtre
     private int x;
+    private int y;
 
     /**
-     * Constructeur d'objets de classe A
-     */
+    * Constructeur d'objets de classe A
+    */
     public A()
     {
-        // initialisation des variables d'instance
         x = 0;
+        y = 0;
     }
 
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
-     */
-    public int sampleMethod(int y)
-    {
-        // Insérez votre code ici
-        return x + y;
+    * @param  z   le paramètre de la méthode
+    * @return     la somme de x et de y multipliée par z
+    */
+    public int sampleMethod(int z)
+    {        
+        return (x + y) * z;
     }
 }
